@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cah90/html-form-cypress-test/issues"
   },
-  "homepage": "https://github.com/cah90/html-form-cypress-test#readme"
+  "homepage": "https://github.com/cah90/html-form-cypress-test#readme",
+  "devDependencies": {
+    "cypress": "^4.8.0"
+  }
 }
