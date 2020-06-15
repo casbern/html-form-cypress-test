@@ -1,6 +1,6 @@
 describe('If the html inputs work', () => {
   it('Goes to the website and fills and the form', () => {
-    cy.visit('http://127.0.0.1:8080/')
+    cy.visit('http://127.0.0.1:8080/alta-performance-form.html')
     
       cy.get('[name="first_name"]')
       .type('Some name')
